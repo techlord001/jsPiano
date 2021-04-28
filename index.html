@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="jsPiano/style.css">
+	<title>JS Piano</title>
+</head>
+<body>
+	<div class="keys">
+		<div class="key" data-key="65">
+			<kbd>A</kbd>
+			<span class="sound">e3</span>
+		</div>
+		<div class="key" data-key="83">
+			<kbd>S</kbd>
+			<span class="sound">f3</span>
+		</div>
+		<div class="key sharp" data-key="69">
+			<kbd>E</kbd>
+			<span class="sound">f3#</span>
+		</div>
+		<div class="key" data-key="68">
+			<kbd>D</kbd>
+			<span class="sound">g3</span>
+		</div>
+		<div class="key sharp" data-key="82">
+			<kbd>R</kbd>
+			<span class="sound">g3#</span>
+		</div>
+		<div class="key" data-key="70">
+			<kbd>F</kbd>
+			<span class="sound">a3</span>
+		</div>
+		<div class="key sharp" data-key="84">
+			<kbd>T</kbd>
+			<span class="sound">a3#</span>
+		</div>
+		<div class="key" data-key="71">
+			<kbd>G</kbd>
+			<span class="sound">b3</span>
+		</div>
+		<!-- ############ C3 ############ -->
+		<div class="key" data-key="72">
+			<kbd>H</kbd>
+			<span class="sound">c4</span>
+		</div>
+		<div class="key sharp" data-key="85">
+			<kbd>U</kbd>
+			<span class="sound">c4#</span>
+		</div>
+		<div class="key" data-key="74">
+			<kbd>J</kbd>
+			<span class="sound">d4</span>
+		</div>
+		<div class="key sharp" data-key="73">
+			<kbd>I</kbd>
+			<span class="sound">d4#</span>
+		</div>
+		<div class="key" data-key="75">
+			<kbd>K</kbd>
+			<span class="sound">e4</span>
+		</div>
+		<div class="key" data-key="76">
+			<kbd>L</kbd>
+			<span class="sound">f4</span>
+		</div>
+		<div class="key sharp" data-key="80">
+			<kbd>P</kbd>
+			<span class="sound">f4#</span>
+		</div>
+		<div class="key" data-key="186">
+			<kbd>;</kbd>
+			<span class="sound">g4</span>
+		</div>
+		<div class="key sharp" data-key="219">
+			<kbd>[</kbd>
+			<span class="sound">g4#</span>
+		</div>
+		<div class="key" data-key="192">
+			<kbd>'</kbd>
+			<span class="sound">a4</span>
+		</div>
+		<div class="key sharp" data-key="221">
+			<kbd>]</kbd>
+			<span class="sound">a4#</span>
+		</div>
+		<div class="key" data-key="222">
+			<kbd>#</kbd>
+			<span class="sound">b4</span>
+		</div>
+		<audio src="jsPiano/sounds/e3.wav" data-key="65"></audio>
+		<audio src="jsPiano/sounds/f3.wav" data-key="83"></audio>
+		<audio src="jsPiano/sounds/f-3.wav" data-key="69"></audio>
+		<audio src="jsPiano/sounds/g3.wav" data-key="68"></audio>
+		<audio src="jsPiano/sounds/g-3.wav" data-key="82"></audio>
+		<audio src="jsPiano/sounds/a3.wav" data-key="70"></audio>
+		<audio src="jsPiano/sounds/a-3.wav" data-key="84"></audio>
+		<audio src="jsPiano/sounds/b3.wav" data-key="71"></audio>
+		<audio src="jsPiano/sounds/c4.wav" data-key="72"></audio>
+		<audio src="jsPiano/sounds/c-4.wav" data-key="85"></audio>
+		<audio src="jsPiano/sounds/d-4.wav" data-key="73"></audio>
+		<audio src="jsPiano/sounds/d4.wav" data-key="74"></audio>
+		<audio src="jsPiano/sounds/e4.wav" data-key="75"></audio>
+		<audio src="jsPiano/sounds/f4.wav" data-key="76"></audio>
+		<audio src="jsPiano/sounds/f-4.wav" data-key="80"></audio>
+		<audio src="jsPiano/sounds/g4.wav" data-key="186"></audio>
+		<audio src="jsPiano/sounds/g-4.wav" data-key="219"></audio>
+		<audio src="jsPiano/sounds/a4.wav" data-key="192"></audio>
+		<audio src="jsPiano/sounds/a-4.wav" data-key="221"></audio>
+		<audio src="jsPiano/sounds/b4.wav" data-key="222"></audio>
+	</div>
+	<script src="jsPiano/script.js"></script>
+</body>
+</html>
