@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('jsPiano/img/piano.jpg') bottom center;
+  background: url('/jsPiano/img/piano.jpg') bottom center;
   background-size: cover;
 }
 
